@@ -4,6 +4,8 @@ Github Finder is a Github's user finder web app. Here you can search for users a
 
 It's a class based react app.
 
+## Project URL: https://github-finder-v1.vercel.app/
+
 ## Installation
 
 ```javascript
