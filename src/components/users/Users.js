@@ -1,4 +1,6 @@
 import React from 'react'
+
+// Import components
 import UserItem from './UserItem'
 import Spinner from '../layout/Spinner'
 import PropTypes from 'prop-types'

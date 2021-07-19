@@ -243,10 +243,6 @@ img {
   opacity: 0.9;
   background: var(--light-color);
   color: #333;
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .btn-primary,
