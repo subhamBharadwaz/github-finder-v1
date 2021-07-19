@@ -1,8 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-// Import 3rd-party packages
 
+// Import 3rd-party packages
 import { Link } from 'react-router-dom'
+
 const Navbar = ({ icon, title }) => {
   return (
     <div className="navbar bg-primary">
