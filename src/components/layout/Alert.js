@@ -3,14 +3,7 @@ import React from 'react'
 const Alert = ({ alert, onClose }) => {
   return (
     alert !== null && (
-      <div
-        className={`alert alert-${alert.type}`}
-        style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-        }}
-      >
+      <div className={`alert alert-${alert.type}`} style={AlertStyle}>
         <div>
           <i className="fas fa-info-circle" />
           {alert.msg}
@@ -23,6 +16,12 @@ const Alert = ({ alert, onClose }) => {
       </div>
     )
   )
+}
+
+const AlertStyle = {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
 }
 
 export default Alert
